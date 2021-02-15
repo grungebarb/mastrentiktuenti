@@ -1,0 +1,294 @@
+button {
+  display: inline;
+}
+audio {
+  outline: none;
+  max-width: 100%;
+  display: block;
+  padding: 10px;
+}
+.wrapper {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+  padding: 0 10px 20px;
+}
+.row-zero {
+  max-width: 60%;
+  display: block;
+  margin: 10px auto;
+}
+/*Start of FIRST-ROW*/
+.first-row {
+  background-color: #6ba6cb;
+}
+.first-row a {
+  color: white;
+}
+.first-row a:hover,
+.active-link {
+  background-color: #4681ad;
+}
+.first-row input {
+  border: solid 1px #cacaca;
+  border-radius: 5px;
+}
+/*End of FIRST-ROW*/
+/*Start of SECOND-ROW*/
+.second-row {
+  background-color: #eeeeee;
+  border: solid 1px #cacaca;
+  border-radius: 5px;
+  padding: 5px;
+}
+.second-row div img {
+  border-radius: 5px;
+  border: solid #b6b6b6 2px;
+  max-width: 40px;
+  margin: -2px auto auto -8px;
+}
+.second-row input {
+  min-width: 40%;
+  max-width: 60%;
+  margin: 5px;
+  border: solid 1px #cacaca;
+  border-radius: 5px;
+  padding: 5px;
+}
+.second-row i.fa-pencil-alt {
+  color: #b6b6b6;
+}
+/*End of SECOND-ROW*/
+/*Start of LEFT COLUMN*/
+.girl-data {
+  margin: 20px 0;
+  border: solid 1px #cacaca;
+  border-radius: 5px;
+  padding: 5px 10px 10px;
+}
+.birthday-girl {
+  font-weight: bold;
+  font-size: 20px;
+  color: #4681ad;
+  padding: 0;
+  margin-bottom: 0;
+}
+.birthday-girl a {
+  text-decoration: none;
+  color: #4681ad;
+}
+.small-font {
+  font-size: 13px;
+}
+.small-font i {
+  color: #4681ad;
+}
+.small-font p {
+  color: #b6b6b6;
+}
+hr {
+  margin: 10px 0 8px;
+}
+.green-notifications p {
+  color: #8fcd67;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 13px;
+}
+.green-notifications a {
+  text-decoration: none;
+  color: #8fcd67;
+}
+.girl-data img {
+  max-height: 30px;
+  margin-bottom: 4px;
+}
+.header-chat,
+.header-news {
+  background-color: #cde3ee;
+  padding: 5px 10px;
+  border-radius: 5px 5px 0 0;
+}
+.chat-box,
+.recent-news {
+  border: solid 1px #aacae1;
+  border-radius: 5px;
+}
+.chat-box i {
+  color: #8fcd67;
+}
+.chat-box ul {
+  list-style: none; /* Remove default bullets */
+}
+.chat-box a {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
+.chat-box ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #8fcd67; /* Change the color */
+  font-weight: 900;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1.2em; /* Also needed for space (tweak if needed) */
+}
+/*End of LEFT COLUMN*/
+/*Start of RIGHT COLUMN*/
+.recent-news {
+  margin: 20px 0 0 20px;
+}
+.news-column {
+  margin: 10px;
+  padding: 0 10px 10px 0;
+}
+.icon {
+  padding: 0 10px;
+}
+.friend-photo {
+  border-radius: 5px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+div.col-8 audio {
+  padding: 0;
+  margin-top: 25px;
+}
+div.double-audio audio {
+  padding: 10px;
+  margin: 0;
+  margin-top: 5px;
+}
+div.news-column h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #4681ad;
+  margin: 0;
+  display: inline;
+  max-width: 100%;
+}
+.new-comment {
+  color: #73c53d;
+}
+.friend-name {
+  padding-bottom: 10px;
+}
+.friend-name img {
+  margin: auto 5px auto -10px;
+  border-radius: 5px;
+  border: solid #b6b6b6 2px;
+}
+details {
+  border-radius: 5px;
+}
+summary {
+  outline: none;
+  border-radius: 5px;
+  background-color: #cde3ee;
+  padding: 5px 5px 5px 10px;
+  margin: 10px 0;
+}
+details ul {
+  list-style-type: "\1f449";
+}
+details li {
+  padding-left: 10px;
+}
+/*End of RIGHT COLUMN*/
+.coded-by {
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px 0 0 20px;
+  font-size: 14px;
+  text-align: center;
+}
+.go-top-fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: right;
+  padding: 0 2em 2em 0;
+}
+.go-top-fixed a {
+  background-color: rgba(205, 227, 238, 0.8);
+  color: #4681ad;
+  padding: 10px 20px 12px;
+  border: solid 1px #aacae1;
+  border-radius: 25px;
+  text-decoration: none;
+}
+/*Empty-end DIV*/
+.empty-end {
+  height: 60px;
+}
+/*LOGIN PAGE*/
+body.log-in {
+  background-color: #6ba6cb;
+  color: #505050;
+}
+.log-in-wrapper {
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+.log-in-icon img {
+  max-width: 300px;
+  display: block;
+  margin: 100px auto 20px;
+}
+.box-wrapper {
+  border: solid 1px #aacae1;
+  border-radius: 5px;
+  background-color: white;
+}
+.log-in-header {
+  background-color: #cde3ee;
+  padding: 5px 10px;
+  border-radius: 5px 5px 0 0;
+  border-bottom: solid 1px #aacae1;
+  text-align: left;
+}
+.log-in-form {
+  margin-top: 20px;
+  color: rgb(121, 121, 121);
+}
+.log-in-form div {
+  margin-bottom: 5px;
+  margin-right: -10px;
+}
+.log-in-btn {
+  display: block;
+  margin-top: 10px;
+}
+.log-in-btn {
+  color: white;
+  text-decoration: none;
+  border: #4681ad 1px solid;
+  border-radius: 5px;
+  padding: 7px 40px;
+  background-color: #6ba6cb;
+}
+.log-in-btn:hover {
+  background-color: #4681ad;
+}
+div.log-in-footer details {
+  color: blue;
+  margin: 0;
+  padding: 5px 10px;
+}
+div.log-in-footer details summary {
+  color: #4681ad;
+  background-color: #eeeeee;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+}
+div.log-in-footer details summary::-webkit-details-marker {
+  display: none;
+}
+.log-in-footer {
+  background-color: #eeeeee;
+  padding: 0 10px;
+  border-radius: 5px 5px 0 0;
+  border-bottom: solid 1px #aacae1;
+  text-align: left;
+}
